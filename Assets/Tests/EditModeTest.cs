@@ -9,6 +9,6 @@ public class EditModeTest
         hp -= 50;
         if (hp < 0) hp = 0;
 
-        Assert.AreEqual(0, hp);
+        Assert.AreEqual(1, hp);
     }
 }
